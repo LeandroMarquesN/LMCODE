@@ -1,0 +1,125 @@
+.containerForm{
+   
+    font-family: 'Italiana', sans-serif;
+}
+
+.containerForm {
+    background-color:opacity(.9);
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    width: 500px;
+    max-width: 100%;
+    overflow: hidden;
+    color:white;
+    font-weight: bold;
+
+}
+.header {
+    background-color: opacity(.9);
+    padding: 20px;
+}
+.form {
+    padding: 20px;
+}
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px ;
+    color:#008BF8;
+    font-size: 1.2rem;
+}
+.form-control input {
+    border:2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+.form-control input:focus{
+    border-color: #09d;
+    box-shadow: 0 0 0 3px #4dc8ff; 
+}
+.form-control input.text-area{
+    min-height: 5rem;
+    resize: vertical;
+}
+.form-control input.text-area:focus {
+    border-color: #09d;
+    box-shadow: 0 0 0 3px #4dc8ff;
+}
+.form-control i {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    /* Abaixo a propriedade visibiliti será mudada por meio de javaScript */
+    visibility: hidden;
+}
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: red;
+    /* Abaixo a propriedade visibiliti será mudada por meio de javaScript */
+    visibility: hidden;
+}
+.form button {
+    background-color:#008BF8 ;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Italiana', sans-serif;
+    text-transform: uppercase;
+    transition: all .3s ;
+}
+.form input:active {
+    border: 2px solid #008BF8;
+    box-shadow:#008BF8 1px 1px 20px;
+}
+
+input{
+    outline: none;
+    font-weight: bold;
+    color: #008BF8;
+    padding:2px;
+    outline:none !important;
+    transition: all .2s ;
+    
+}
+
+input:hover {
+    border: 2px solid #008BF8;
+    box-shadow:#008BF8 1px 1px 20px;
+}
+button:hover{
+    border: 2px solid white;
+    box-shadow:#008BF8 1px 1px 20px;
+    cursor:pointer;
+    font-weight: bold;
+    
+}
+
+
+/* Agora vamos stilizar um elemento com sucesso para aparecer os icone e alterar a visibility do form-control small e form-control i  e para isso vamos usar uma logica que vai adicionar ou remover a palavra "error" ou "success" na classe de form-control*/
+.form-control.success input {
+    border-color: #2ecc71;
+}
+.form-control.error input {
+    border-color: #e74c3c;
+}
+.form-control.success i.fa-circle-check  {
+    visibility: visible;
+}
+.form-control.error i.fa-circle-exclamation.fa-shake {
+    visibility: visible;
+}
+.form-control.error small {
+    visibility: visible;
+}

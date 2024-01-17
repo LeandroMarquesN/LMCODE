@@ -1,0 +1,128 @@
+@media only screen and (min-width:320px) and (max-width:479px){
+
+    body{
+        overflow-x: hidden;
+    }
+    section{
+        min-height: 100vh !important;
+        margin: 0 auto;
+       
+    }
+    nav#invert{
+        position: fixed;
+    }
+    div#mobile-menu.mobile-menu{
+        display: block;
+    }
+    .nav-list {
+        position: absolute;
+        top:6vh;
+        width: 50vw;
+        height: 87vh;
+        bottom: 0px;
+        border-radius: 0px 30px 30px 0px;
+    }
+    
+    main#bg{
+        display:flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: flex-start;
+    }
+
+    div.containerHome {
+      position:relative;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width:100vw;
+      height: 100vh;
+    }
+    div.containerDark{
+        display:none;
+    }
+    .img-leo{
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        left: 15%;
+        top:40px;
+        animation: gira 20s ease-in-out infinite;
+    }
+    div.containerHome h1{
+        position:absolute;
+        font-size: 20px;
+        text-align: center;
+        left: 0;
+        top:210px;
+    }
+    div.containerParagraf{
+        position: absolute;
+        /* background-color: red; */
+        color:white;
+        text-align: center;
+        font-size:.8rem;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 3px;
+        text-shadow: #008BF8 1px 0 5px;
+        width: 100%;
+        max-width: 60%;
+        left:10%;
+        top:50vh;
+    }
+    /*  ------ 1 paralax ----- */
+    div.container{
+        height: 150px;
+    }
+    div.container h2{
+        font-size: 12px;
+    }
+
+    /*----- Sobre------ */
+    section#sobre.section1{
+        position:relative;
+        width:100vw;
+        height: 100vh;
+    }
+    div.slide{
+        max-width: 80vw;
+        max-width: 70vh;
+    }
+    div.slide-items{
+        max-width: 70vw;
+        max-height: 70vh;
+        left:3rem;
+    }
+   div.slide-thumb{
+    position: absolute;
+    max-width: 70vw;
+    left:3rem;
+       
+    }
+    i.slide-prev{
+      
+        right:290px ;
+        /* background-color: red; */
+        
+    }
+    i.slide-next{
+       left:290px;
+        /* background-color: red; */
+    }
+    /* ----- Contatto ---- */
+    div.containerForm.hid6{
+      width: 100vw;
+    }
+    /* --- whatsApp --- */
+    div.wha{
+        position: fixed;
+        box-shadow: green 0px 0px 20px ;
+        width: 15vw;
+        height: 8vh;
+        left:310px;
+        bottom: 20px;
+        /* display:none; */
+    }
+   
+}

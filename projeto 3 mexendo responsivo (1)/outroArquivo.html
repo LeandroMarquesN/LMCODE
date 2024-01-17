@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um titulo</title>
+    <style>
+        .container{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h2{
+            display: flex;
+            font-family: 'Italiana', sans-serif;
+            background-color: aqua;
+            cursor: pointer;
+            transition: all 1s ease-in-out;
+            width: 15rem;
+            height: 5rem;
+            border-radius: 15px 15px 15px 0px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            
+        }
+        h2:hover{
+            background-color: #028090;
+            transform: translateY(20px);
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            color:white;
+            width:20rem;
+           
+        }
+        div h2 a{
+            color: tomato;
+            text-decoration: none;
+            
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background:linear-gradient(180deg ,red ,blue, purple);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        h1{
+            color:white;
+            font-family: 'Italiana', sans-serif;
+        }
+        body div.img{
+            width:12rem;
+            height: 12rem;
+            background-image: url('/img/leandro-profile.png');
+            background-repeat: no-repeat;
+            background-position: 10% 10% 20% ;
+            background-size: cover;
+            border-radius: 50%;
+            box-shadow: orange 0px 0px 20px ;
+            animation: gira 20s ease-in-out infinite;
+            cursor: pointer;
+            transition: all .5s ease-in-out;
+        }
+        body div.img:hover{
+            box-shadow: yellow 0px 0px 30px ;
+        }
+        .wha{
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            width:4rem;
+            height: 4rem;
+            filter:invert(-9);
+            background-image: url('/img/whatsapp_black_logo_icon_.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 50%;
+            cursor: pointer;
+           
+            animation: pulsar .9s ease-in-out infinite;
+        }
+
+
+    /*---- Animação ------  */
+        @keyframes gira {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform:rotate(-15deg);
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+    75%{
+        transform:rotate(-15deg);
+    }
+   
+}
+@keyframes pulsar{
+
+    0%{
+      transform: scale(0.5);
+      opacity: 0;
+  }
+  50%{
+      opacity: 1;
+  }
+  80%{
+      transform: scale(0.9);
+      opacity: 0;
+  }
+   100%{
+      transform: scale(1.2);
+      opacity: 0;
+  }
+  
+}
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <div class="img">
+        
+    </div>
+    <div class="container">
+        <h1>Siga nas Redes sociais !!</h1>
+        <h2 class="UmaClass" id="UmId">
+            <a target="_blank" href="https://www.instagram.com/?hl=pt-br">instagran</a>
+        </h2>
+        <h2 class="UmaClass" id="UmId">
+            <a target="_blank" href="https://www.youtube.com/">youtube</a>
+        </h2>
+        
+        <h2 class="UmaClass" id="UmId">
+            <a href="https://www.hugeinc.com/products/">Site Qualquer</a>
+        </h2>
+    </div>
+    <div class="wha" title="Fale comigo diretamente pelo whatspp" >
+        <a href="https://wa.me/5511970166621?text=Olá%20tudo%20bem%20com%20você" target="_blank"></a> 
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+.containerCards{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:opacity(0);
+}
+.cards{
+    width: 100%;
+    max-width:150px;
+    height:200px;
+    background: darkslateblue;
+    margin-top: 150px;
+    margin-left:5px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:transform .5s ease-in-out;
+}
+.containerCards:hover >:not(:hover){
+    opacity:.5;
+    transform:scale(.9);
+}

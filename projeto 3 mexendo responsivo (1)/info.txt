@@ -1,0 +1,41 @@
+
+
+link de como se criar uma nav bar responsiva.
+https://www.youtube.com/watch?v=bHRXRYTppHM 
+
+
+para entender melhor sobre varavei de css :
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties
+
+efeito de botao que volta par o topo.
+https://www.youtube.com/watch?v=A6LkrfkdBcc
+
+efetio do scroll active na section que está a tela.
+https://www.youtube.com/watch?v=UoE1hqfpXX0
+
+slide estilo Stories
+https://www.youtube.com/watch?v=VaSr6uixmb0
+
+animação no scroll usando apenas html css javaScript:
+https://www.youtube.com/watch?v=g29xXRHtnIs
+
+
+
+apresentação sobre min:
+
+
+                        Olá a todos! Meu nome é Leandro e sou um apaixonado desenvolvedor frontend, dedicado a criar experiências web incríveis. Aqui estão alguns pontos que destacam minha abordagem e habilidades:
+
+Experiência Sólida em Tecnologias Frontend: Possuo uma base sólida em tecnologias essenciais, incluindo HTML, CSS e JavaScript. Estou constantemente atualizado com as últimas tendências e melhores práticas para garantir resultados modernos e eficientes.
+
+Foco na Usabilidade e Design Responsivo: Acredito que a experiência do usuário é crucial. Trabalho diligentemente para garantir que cada projeto seja intuitivo, acessível e visualmente atraente, independentemente do dispositivo ou tamanho da tela.
+
+Colaboração Efetiva com Equipes Multidisciplinares: Tenho uma forte habilidade de comunicação e colaboração. Trabalho bem em equipes multidisciplinares, compreendendo a importância da cooperação para atingir objetivos comuns.
+
+Paixão por Desafios Técnicos: Adoro enfrentar desafios técnicos e encontrar soluções inovadoras. Isso inclui otimização de desempenho, resolução de problemas de compatibilidade e a implementação de recursos complexos.
+
+Compromisso com a Melhoria Contínua: Sou pró-ativo na busca pela melhoria contínua. Busco constantemente aprender novas tecnologias e adotar as melhores práticas da indústria para manter-me atualizado e fornecer soluções cada vez melhores.
+
+Portfolio Variado: Meu portfólio reflete uma variedade de projetos desafiadores e bem-sucedidos. Esses projetos demonstram minha capacidade de enfrentar diferentes requisitos e entregar soluções de alta qualidade.
+
+Estou entusiasmado com as oportunidades de colaborar em projetos futuros e contribuir para o sucesso através do desenvolvimento frontend inovador e de alta qualidade. Obrigado pela oportunidade!

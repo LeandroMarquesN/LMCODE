@@ -1,0 +1,23 @@
+footer.foot{
+    height: 200px;
+    width: 100vw;
+    background-color:var(--bg_menuDarck);
+    bottom: 50px;
+    position: static;
+    color: var(--cor_Font_darck);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    line-height: 1.6rem;
+    overflow-x: hidden;
+}
+footer.foot h6{
+    font-family: 'Italiana', sans-serif;
+}
+hr{
+    max-width: 80vw;
+    width: 100%;
+   
+}

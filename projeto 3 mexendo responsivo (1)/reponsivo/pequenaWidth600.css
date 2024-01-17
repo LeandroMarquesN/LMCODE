@@ -1,0 +1,41 @@
+@media only screen and (min-width:480px) and (max-width:767px){
+  body{
+    overflow-x: hidden;
+  }
+    div.containerHome h1{
+        position: absolute;
+      color:#DCEDFF;
+      font-size: 3rem;
+      top:150px;
+    }
+
+  
+    div.containerDark{
+        display:block;
+    }
+    div.containerParagraf{
+        position: absolute;
+        /* background-color: red; */
+        color:#DCEDFF;
+        text-align: justify;
+        font-size:13px;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 3px;
+        width: 100%;
+        max-width: 60%;
+        left: 0;
+        top:430px;
+        opacity: 0;
+    }
+    .img-leo{
+        width: 180px;
+        height: 180px;
+        left: 250px;
+        animation: gira 20s ease-in-out infinite;
+    }
+    div.img-leo.imgWel.hid5-2{
+       
+      width:12rem;
+      height:12rem;
+  }
+}

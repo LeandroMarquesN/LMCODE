@@ -1,0 +1,30 @@
+
+@media only screen and (min-width:768px){
+
+   div.containerHome h1{
+      position: absolute;
+    color:#DCEDFF;
+    font-size: 2.8rem;
+    top:150px;
+  }
+
+   div.containerParagraf{
+      position: absolute;
+      /* background-color: red; */
+      color:#DCEDFF;
+      text-align: justify;
+      font-size:1.5rem;
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 3px;
+      width: 100%;
+      max-width: 90%;
+      left: 0;
+      top:430px;
+      opacity: 1;
+  }
+ 
+   .wha{
+    box-shadow:  white 1px 0 20px;
+    filter:contrast(50);
+   }
+}
